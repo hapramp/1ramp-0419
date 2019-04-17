@@ -38,10 +38,32 @@
                             <p class="cta-body">We have cooked some surprising ways to reward creators for their work.
                                 Request an invite and we’ll notify when it’s ready for you.</p>
                         </div>
+
+                        <div class="submission-feedback">
+                            We are excited to see you on our invite list. “Rewarding creators” is a movement and we
+                            cannot do it without your support.
+                        </div>
+
+                        <div class="share-options text-color-yellow">
+                            <h3>Help more creators find us.</h3>
+                            <div class="social-share-container">
+                                <div class="social-share-item"><img src="./img/facebook.svg" alt=""></div>
+                                <div class="social-share-item"><img src="./img/twitter.svg" alt=""></div>
+                            </div>
+                        </div>
+
                         <div class="cta-form">
-                            <form action="">
-                                <input class="cta-input" type="email" required placeholder="Your Email">
-                                <input class="cta-input" type="text" placeholder="Tell us where you are famous" required>
+                            <script type="text/javascript">
+                                var submitted = false;
+                            </script>
+                            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
+                                onload="if(submitted)  {var el = document.getElementsByClassName('cta-container');el[0].classList.add('submitted');}"></iframe>
+                            <form method="post" target="hidden_iframe" onsubmit="submitted=true;"
+                                action="https://docs.google.com/forms/d/e/1FAIpQLSciUs-UEM1VcfqhjtUJSfpLCQdIku_bEj3lXGXIEfGqGQ65gg/formResponse">
+                                <input name="entry.747163953" class="cta-input" type="email" required
+                                    placeholder="Your Email">
+                                <input name="entry.1698641747" class="cta-input" type="text"
+                                    placeholder="Tell us where you are famous" required>
                                 <input class="cta-submit" type="submit" value="Request Invite">
                             </form>
                         </div>
