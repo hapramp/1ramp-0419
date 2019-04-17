@@ -1,0 +1,120 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: rgba(0, 0, 0, 0.7);
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+.container {
+    max-width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.hero-section .container {
+    max-width: 1080px;
+    padding-top: 104px;
+    padding-bottom: 80px;
+}
+
+.font-deco {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+}
+
+.hero-section {
+    background-color: #FAF2F2;
+}
+
+.hero-section .hero-title {
+    font-size: 72px;
+    color: black;
+    margin: 0;
+}
+
+.hero-section .hero-body {
+    margin-top: 24px;
+    font-size: 18px;
+    max-width: 420px;
+}
+
+.hero-section .hero-contents {
+    margin-top: 40px;
+}
+
+.split-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.cta-section {
+    background-color: #FFFC00;
+}
+
+.cta-section .container {
+    padding: 0;
+}
+
+.cta-container {
+    color: white;
+    background-color: black;
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 96px 132px;
+    position: relative;
+    top: -80px;
+}
+
+.cta-section .font-deco {
+    font-size: 40px;
+    color: #FFFC00;
+}
+
+.cta-section .cta-title {
+    margin: 0;
+}
+
+.cta-section .cta-form {
+    display: flex;
+    flex-grow: 1;
+}
+
+.cta-section form {
+    width: 100%;
+}
+
+.cta-container .cta-contents {
+    max-width: 320px;
+    margin-right: 72px;
+}
+
+.cta-form .cta-input {
+    height: 40px;
+    display: block;
+    width: 100%;
+    padding-left: 16px;
+    margin-bottom: 16px;
+}
+
+.cta-submit {
+    background-color: #FFFC00;
+    color: black;
+    border: 0;
+    padding: 12px 24px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.vertical-deco {
+    width: 1px;
+    height: 120px;
+    content: "";
+    background-color: black;
+    position: relative;
+    top: -96px;
+    left: 32px;
+}
