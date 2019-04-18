@@ -147,6 +147,10 @@ body {
     display: block;
 }
 
+.cta-section .container {
+    /* padding-bottom: 16px; */
+}
+
 .share-options h3{
     margin-top: 0;
     font-weight: 400;
@@ -163,4 +167,67 @@ body {
     display: inline-flex;
     margin-right:16px;
     cursor: pointer;
+}
+
+header {
+    background-color:rgb(250, 242, 242);
+}
+
+header .container {
+    padding-top: 16px;
+    padding-bottom: 0;
+}
+
+header .nav-container {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+header .nav-container .brand-logo {
+    font-size: 24px;
+    color: black;
+}
+
+header .nav-container .header-cta {
+    background-color: #FFFC00;
+    padding: 12px 24px;
+    color: black;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #FFFC00;
+    padding-bottom: 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-container ul {
+    margin: 0;
+    padding-left: 0;
+}
+
+.footer-container ul li {
+    display: inline;
+}
+
+.footer-container ul.links li {
+    margin-right: 16px;
+}
+
+.footer-container ul li:last-child {
+    margin-right: 0;
+}
+
+.footer-container ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-container ul li a:hover {
+    text-decoration: underline;
 }
